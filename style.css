@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Libre+Baskerville:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Josefin+Sans:ital,wght@0,400;1,600;1,700&family=Libre+Baskerville:wght@700&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: linear-gradient(to bottom, #38425d, #2f384e);
+}
+
+::-webkit-scrollbar-thumb {
+	background: #2ecc71;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #17773f;
+}
+
+body{
+    background: linear-gradient(to right, #2193b0, #6dd5ed);
+}
+
+.navbar-toggler span i{
+    color: white;
+}
+.navbar-brand{
+    color: #fff;
+}
+
+.menu ul li{
+    padding-right: 10px;
+}
+
+.menu li i{
+    font-size: 1.2em;
+    margin: 10px;
+    color:#fff;
+}
+
+.menu  a {
+    color:#fff;
+}
+
+.Welcometo text-center{
+    font: bold;
+    color: white;
+    font-family: 'Beau Rivage', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 10px;
+    background: #40e0d0;
+    background: linear-gradient(to right, #40e0d0, #ff8c00, #ff0080);
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.choose{
+    font-size: 30px;
+    font-family: 'Beau Rivage', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    margin: 20px;
+}
+
+.game{
+    height: 100%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 42px;
+    background: linear-gradient(225deg, #21c4b1, #1ca595);
+    box-shadow:  -2.5px 2.5px 5px #0c4942,
+                 2.5px -2.5px 5px #32ffff;
+  margin: 35px;
+}
+
+.game a{
+    width: 20%;
+}
+
+.game:hover{
+    border-radius: 42px;
+    background: #1fb7a5;
+    box-shadow: inset -2.5px 2.5px 5px #0c4942,
+            inset 2.5px -2.5px 5px #32ffff;
+}
+
+.game h3, h4{
+    color: #fff;
+}
+
+.game img{
+    border-radius: 10px;
+    width: 300px;
+    height: 225px;
+    margin: 15px;
+    
+}
+
+hr:not([size]){
+    color: #fff;
+    height: 20px;
+}
+
+
+
+.pricelist p:hover{
+    border-radius: 10px;
+    cursor: pointer;
+    background: linear-gradient(to right, #1e130c, #9a8478);
+    box-shadow: inset -2.5px 2.5px 5px #9a8478,
+                inset 2.5px -2.5px 5px #1e130c;
+}
+
+.pricelist{
+    display: flex;
+    width: 100%;
+    height: auto;
+    color: white;  
+}
+
+.pricelist h1{
+    border-radius: 10px;
+    background: linear-gradient(to left, #1e130c, #9a8478);
+    padding: 20px;
+}
+
+.price{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    background: linear-gradient(to right, #ffa17f, #00223e);
+}
+
+.price h1{
+    width: 100%;
+    font-size: 20px;
+}
+
+.price p{
+    font-size: 18px ;
+}
+
+#about-us{
+    color:white;
+}
+
+#about-us p{
+    font-size: 20px;
+}
+
+footer{
+    font-size: 18px;
+    color: white;
+}
+
+
+.contact-us{
+    color: white;
+    text-align: center;
+}
+
+.contact-us a{
+    text-decoration: none;
+    color: white;
+}
+
+.contact-us p{
+    color: #fff;
+}
+
+.contact-us p:hover{
+    font-size: 20px;
+}
+
+@media(max-width : 500px){
+
+    body{
+        text-align: center;
+    }
+
+    .game{
+        width: 75%;
+        padding: 10px;
+        height: 100%;
+        margin: 0 auto 30px auto;
+    }
+
+    .game img{
+        width: 200px;
+        height: 200px;
+    }
+    .pricelist{
+        display: block;
+       
+    }
+    .price{
+        margin: 0 auto 30px auto;
+        width: 400px;
+        height: 200px;
+    }
+
+    .price h1{
+        font-size: 18px;
+    }
+
+    .price p{
+        font-size: 16px;
+    }
+
+    #about-us p{
+        font-size: 14px;
+    }
+}
